@@ -1,0 +1,60 @@
+.signup{
+    width: 100%;
+    justify-content: center;
+    display: flex; 
+}
+
+h3{
+    position: absolute;
+    top: 25px;
+    font-size: 35px;
+    font-family: 'Secular One', sans-serif;
+  
+}
+
+.s-page{
+    margin-top: 7rem;
+    width: max-content;
+    padding: 40px;
+    border: 3px solid #111;
+    border-radius: 7px;
+    position:relative;
+}
+.s-page>form>label{
+    font-size: 1.28rem;
+    font-family: 'Poppins', sans-serif;
+}
+.s-page>form>input{
+    width: 17rem;
+    height: 2rem;
+    margin-top: 5px;
+    border-radius: 4px;
+    padding: 7px 0px 7px 10px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.s-page>form>button{
+    width: 7rem;
+    font-size: 1.1rem;
+    height: 2rem;
+    display: block;
+    margin:auto;
+    top: 23px;
+    position: relative;
+    border-radius: 8px;
+    background-color: white;
+    font-weight: bold;
+}
+.s-page>form>button:hover{
+    cursor: pointer;
+    background-color: #111;
+    color: aliceblue;
+}
+.s-page>p{
+    font-size: 1.1rem;
+    text-align: center;
+}
+.s-page>p>span{
+    color: blue;
+    cursor: pointer;
+}

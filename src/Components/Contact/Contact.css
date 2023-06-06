@@ -1,0 +1,61 @@
+.contact-full{
+    width: 100%;
+    justify-content: center;
+   display: flex;
+ 
+    
+}
+
+.head{
+    font-size: 35px;
+    font-family: 'Secular One', sans-serif;
+  margin-top: 3rem;
+    text-align: center;
+}
+
+
+.c-page{
+    margin-top: 3rem;
+    width: max-content;
+    padding: 40px;
+    border: 3px solid #111;
+    border-radius: 7px;
+    position:relative;
+   margin-bottom: 7rem;
+  
+}
+.c-page>form>label{
+    font-size: 1.28rem;
+    font-family: 'Poppins', sans-serif;
+}
+.c-page>form>input{
+    width: 17rem;
+    height: 2rem;
+    margin-top: 5px;
+    border-radius: 4px;
+    padding: 4px 0px 4px 10px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.c-page>form>textarea{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding: 4px 0px 4px 10px;
+}
+.c-page>form>button{
+    width: 7rem;
+    font-size: 1.1rem;
+    height: 2rem;
+    display: block;
+    margin:auto;
+    top: 23px;
+    position: relative;
+    border-radius: 8px;
+    background-color: white;
+    font-weight: bold;
+}
+.c-page>form>button:hover{
+    cursor: pointer;
+    background-color: #111;
+    color: aliceblue;
+}

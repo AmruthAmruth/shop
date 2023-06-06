@@ -1,0 +1,75 @@
+.rowfull{
+    width: 100%;
+    background: rgb(231, 227, 227);
+    padding-bottom: 200px;
+   text-align: center;
+}
+.rowpost{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    text-align: center;
+   
+    
+}
+.rowfull>h1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 45px;
+    font-family: 'Secular One', sans-serif;
+}
+.rowfull>p{
+    font-size: 18px;
+    padding-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row{
+    margin-top: 10px;
+   background: rgb(190, 183, 183);
+   padding-bottom: 50px;
+   border-radius: 20px;
+   width: 300px;
+   
+}
+.row:hover{
+    background: rgb(212, 212, 212);
+}
+.row>p{
+    font-size: 19px;
+}
+.row>h5{
+    font-size: 23px;
+}
+.row>h4{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 23px;
+}
+.row>i{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-size: 23px;
+}
+.row>i:hover{
+    cursor: pointer;
+}
+.row>img{
+width: 300px;
+height: 410px;
+border-radius: 30px;
+margin-top: 40px;
+
+}
+
+@media only screen and (max-width:1024px){
+.rowpost{
+    flex-direction: column;
+   align-items: center;
+}
+
+
+
+}

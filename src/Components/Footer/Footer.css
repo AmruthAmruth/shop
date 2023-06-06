@@ -1,0 +1,55 @@
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(87, 84, 84);
+}
+.footer h2{
+    font-family: 'Secular One', sans-serif;
+    margin-left: 1rem;
+    margin-top: 8px;
+    color: #fff;
+    margin-top: 3rem;
+}
+.footer>p{
+    margin-top: 4rem;
+    color: #fff;
+}
+.footer>ul{
+    margin-top: 3rem;
+}
+.footer>ul>a{
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:1024px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 150px;
+        background-color: rgb(87, 84, 84);
+        text-align: center;
+    }
+    .footer h2{
+        font-family: 'Secular One', sans-serif;
+        margin-left: 1rem;
+        
+        color: #fff;
+        margin-top: 3rem;
+    }
+    .footer>p{
+        margin-top: 1rem;
+        color: #fff;
+    }
+    .footer>ul{
+        margin-top: 1rem;
+        padding-bottom: 50px;
+    }
+}
+
